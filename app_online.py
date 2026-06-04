@@ -11,3 +11,7 @@ plt.bar(x = range(5), height = [9, 8, 7, 6, 5])
 plt.xlabel("X-axis")
 plt.title("A random graph")
 st.pyplot(fig)
+
+selected = st.selectbox(label = "Choose an option", options = ["AAA", "BBB", "CCC"])
+st.write(f"You have selected {selected}")
+
